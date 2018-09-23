@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  position: static;
+}
+h1 {
+  display: inline;
+  font-size: 4em;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Aldrich', sans-serif;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#logo {
+  width: 9vh;
+  height: 9vh;
+}
+.navbar {
+  float: right;
+  width: 50%;
+  padding-top: 35px;
+  overflow: auto;
+  display: block;
+  text-align: right;
+  position: static;
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  position: static;
+}
+li {
+  display: inline;
+  padding: 0 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+}
+a:hover {
+  color: #8b6220;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+#jumbotron {
+  line-height: 1;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+#jumbotron img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#jumbotron a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+.content-wrapper {
+  width: 100%;
+  margin: 2em auto;
+}
+.content-box-1 {
+  width: 35%;
+  height: auto;
+  padding-right: 1em;
+  overflow: auto;
+  float: left;
+  border-right: 1px solid white;
+}
+.content-box-1 h2 {
+  text-align: center;
+}
+.content-box-1 p {
+  font-size: 10pt;
+  text-align: center;
+}
+iframe {
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+.content-box-2 {
+  text-align: center;
+  width: 65%;
+  height: auto;
+  float: right;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+td {
+  padding: 5px;
+  width: 33%;
+}
+td img {
+  width: 35vh;
+  height: 35vh;
+}
+td a {
+  padding: 10px;
+  text-decoration: none;
+}
+td a:link {
+  color: white;
+}
+td a:visited {
+  color: #afa78b;
+}
+td a:hover {
+  color: #eecf6d;
+}
+td a:active {
+  color: yellow;
+}
+.clear {
+  clear: both;
+}
+
+/* Inventory page */
+#banner {
+  line-height: 0;
+  width: 100%;
+  height: 27vh;
+  margin: 0 auto;
+  background-color: #8b6220;
+  display: block;
+  clear: both;
+}
+#banner img{
+  width: 100vh;
+  height: 27vh;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.price-box {
+  margin: 1em auto;
+  text-align: center;
+}
+#gallery-box {
+  margin: 1em auto;
+  border-top: 1px solid white;
+  padding: 1em;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.desc {
+  padding-bottom: 2em;
+}
+/* End of Inventory section */
+/* Start of Contact Page */
+.form-container {
+  clear: both;
+  width: 100%;
+  height: auto;
+  margin: 2em auto;
+  border: none;
+  border-radius: 4%;
+  background-color: #d5ac4e;
+  color: black;
+}
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#mySubmit {
+  background-color: #1b5e1d;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form {
+  padding: 3em;
+}
+.social-container {
+  width: 100%;
+  border-top: 1px solid white;
+  overflow: auto;
+}
+.location-container {
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.media-container {
+  width: 33%;
+  float: left;
+  margin-top: 1em;
+  display: inline-block;
+}
+.media-container h2 {
+  margin: 0;
+}
+.icon-container {
+  margin-bottom: 1em;
+  text-align: center;
+}
+.fab {
+  padding: 20px;
+  font-size: 40px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-facebook-square {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+/* End of Contact Page */
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+  overflow: auto;
+  text-align: center;
+  background-color: #d5ac4e;
+  color: black;
+  line-height: 17px;
+}
+.footer-box-1 {
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+}
+.footer-box-2 {
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+}
+.footer-box-3 {
+  float: right;
+  width: 33%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 9pt;
+}
+.footer-box-3 a {
+  color: black;
+  text-decoration: none;
+}
